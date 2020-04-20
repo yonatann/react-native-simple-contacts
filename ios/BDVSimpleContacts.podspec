@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/author/BDVSimpleContacts.git", :tag => "master" }
   s.source_files  = "BDVSimpleContacts/**/*.{h,m}"
   s.requires_arc = true
+  s.home = "https://github.com/author/BDVSimpleContacts.git"
 
 
   s.dependency "React"
